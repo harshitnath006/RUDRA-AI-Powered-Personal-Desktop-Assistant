@@ -1,0 +1,22 @@
+# Local credentials and personal data
+config/api_keys.json
+config/certs/*.key
+config/certs/*.crt
+memory/long_term.json
+uploads/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node / Next.js
+web-ui/node_modules/
+web-ui/.next/
+web-ui/out/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
